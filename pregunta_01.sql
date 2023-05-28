@@ -17,4 +17,4 @@
 
 --  >>> Escriba su codigo a partir de este punto <<<
 
-select sum(cl2) from tbl1;
+select sum(c12) from tbl1;
