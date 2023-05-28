@@ -44,5 +44,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 select * from btl1 
-where K0 != 'A' and K0 != 'B'
+where K0 != 'A' and K0 != 'B' and
 c13 != 200 and K0 != 900;   

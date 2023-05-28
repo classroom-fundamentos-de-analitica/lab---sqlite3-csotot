@@ -18,4 +18,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-select count(*) from data;
+select count(*) from tbl1;

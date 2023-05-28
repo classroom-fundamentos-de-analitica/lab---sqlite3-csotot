@@ -38,5 +38,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-select count(*) as CANT from tbl1
+select year(c14) as YEAR, count(*) as CANT from tbl1
 where year(c14) = 2018
