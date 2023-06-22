@@ -22,6 +22,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-select * from data
-order by c14
-limit 5;
+SELECT * FROM tbl1 ORDER BY c14 LIMIT 5;
