@@ -42,5 +42,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-select K0, max(c12), min(c12) from tbl1 
-group by K0; 
+SELECT k0,MAX(c12),MIN(c12)  FROM tbl1 GROUP BY k0;

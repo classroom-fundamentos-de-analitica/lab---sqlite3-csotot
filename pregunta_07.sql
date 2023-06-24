@@ -43,6 +43,6 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-select * from btl1 
-where K0 != 'A' and K0 != 'B' and
-c13 != 200 and K0 != 900;   
+SELECT * FROM tbl1 WHERE k0 <> 'A' AND k0 <> 'B'
+and c13 <> 200 AND c13 <> 900
+ORDER BY c14;

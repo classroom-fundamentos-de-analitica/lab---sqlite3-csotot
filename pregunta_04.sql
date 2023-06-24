@@ -40,6 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-select tbl1.K0, tbl1.c16
-from tbl1
-where left(tbl1.c16, 1) = tabl1.K0;
+SELECT k0,c16 FROM tbl1 WHERE substr(c16,1,1) = k0;

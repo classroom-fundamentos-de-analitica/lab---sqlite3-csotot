@@ -41,6 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-select year(c23) as ano, avg(c21) as promedio
-from tbl2
-order by ano;
+SELECT strftime('%Y', c23), avg(c21) FROM tbl2 GROUP BY strftime('%Y',c23);

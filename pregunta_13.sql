@@ -43,6 +43,4 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-select K0, avg(c12) from tbl1
-where c13 > 400 
-order by K0;
+SELECT k0,avg(c12)  FROM tbl1 WHERE c13 > 400 GROUP BY k0;
